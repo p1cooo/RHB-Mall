@@ -1,0 +1,8 @@
+{
+  "name": "Remix: RHB Mall",
+  "description": "A premium iOS-style mobile app prototype for the RHB Mall membership and loyalty ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

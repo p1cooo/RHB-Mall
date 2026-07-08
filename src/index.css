@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-brand-gold: #C5A028;
+  --color-brand-gold-light: #D4AF37;
+  --color-brand-dark: #1C1C1E;
+  --color-brand-gray: #8E8E93;
+  --color-brand-bg: #F2F2F7;
+}
+
+body {
+  background-color: #F2F2F7;
+  font-family: var(--font-sans);
+  color: #1C1C1E;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide default scrollbars for modern look while retaining functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
